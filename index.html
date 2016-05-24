@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>A fantastical adventure</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Fill in the blanks to send a letter to yourself !</h1>
+      <div id="blanks">
+        <form>
+          <div class="form-group">
+            <label for="recipient">A name</label>
+            <input id="recipient" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn">Show me the letter !</button>
+        </form>
+      </div>
+
+      <div id="story">
+        <h1>The letter</h1>
+        <p>Dear <span class="recipient"></span> Ipsum Lortem ipsum lorem. Best regards, Mom </p>
+      </div>
+    </div>
+  </body>
+</html>
